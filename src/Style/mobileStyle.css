@@ -1,0 +1,190 @@
+
+@media only screen and (max-width:600px)
+{
+    #homePic{
+        display:none;
+    }
+    #searchBox{
+left:8px;
+top:2cm;
+    }
+    #main-header{
+        display:flex;
+        justify-content: space-between;
+        padding:8px;
+
+    }
+    #site-face h1{
+        font-size: 85px;
+
+    }
+    .crowdFunding>p,.crowdFunding>h2,.crowdFunding{
+        margin:0px;
+        width:100%;
+        padding:10px;
+        margin-bottom:1cm;
+    }
+    #contact form{
+        position: static;
+        margin:auto;
+        padding:15px;
+        width:95%;
+ padding-top: 35px;        
+    }
+    #searching{
+        padding:5px;
+        text-align: center;
+        width:100%;
+    }
+    #searchImage{
+        width:2.5cm;
+    }
+    #tip{
+        display: none;
+    }
+    #dashBoard{
+        width: 94%;
+        position: static;
+        text-align: center;
+        padding:0;
+        padding:6px 0 6px 0;
+    margin:auto;
+        margin-top: 2cm;
+    }
+    #dash_button>button{
+        width:fit-content;
+  height:fit-content;
+        display: inline;
+    }
+    #dash_button{
+        margin:5px;
+        text-align: center;
+        width:auto;
+    }
+    #dash{
+        margin: 0;
+        width:auto;
+    }
+    #welcomeHeading{
+        position: static;
+        margin-top: 2cm;
+        width:100%;
+        text-align: center;
+    }
+    #campaign{
+        position:static;
+        width:fit-content;
+        padding:5px;
+    }
+    #history{
+        position: static;
+        width:100%;
+        margin:auto;
+        margin-top: 1cm;
+        
+    }
+    .confirmation{
+        left:40%;
+        top:35vh;
+width:100%;
+    }
+    .confirmation>div,.confirmation>h4{
+        padding:1cm;
+        margin:auto;
+     
+    }
+    .coverup{
+        top:3.5cm;
+    }
+    .buttonClicked{
+        position:static;
+        display: block;
+        margin: auto;
+    }
+    
+    #expand{
+        display: block;
+    }
+    #expand img{
+        display: block;
+        margin: auto;
+        width:90%;
+        height:35vh;
+    }
+    #exp>p{
+        display: inline;
+    }
+    #explore{
+        display: block;
+        position: static;
+    }
+    #exp{
+        
+        width:100%;
+        margin: auto;
+        margin-top: 1cm;
+    }
+    #exp button{
+        height:fit-content;
+        width:fit-content;
+    }
+    #display-cat{
+grid-template-columns: 1fr;
+margin: auto;
+width:fit-content;
+padding-top: 25px;
+    }
+    #display-cat>div{
+        margin-top:5px;
+    }
+    #expandExplore{
+        position: static;
+width:80%;
+margin: auto;
+margin-top: 2cm;
+display:block;
+padding: 17px 0 17px 0;
+
+    }
+    #expandExplore img{
+width:90%;
+display: block;
+margin: auto;
+padding:0;
+border-radius: 8px;
+    }
+    #know span{
+        width:80%;
+    }
+    #emptyExplore{
+        position:static;
+    }
+    #searching>h3{
+        position:static;
+        text-align: center;
+        margin-top: 21vh;
+    }
+    #register-form>div{
+width:fit-content;
+
+    }
+    #foot{
+        width:100%;
+        left:0;
+        position: absolute;
+    }
+    #foot>div{
+        width:fit-content;
+        margin:auto;
+    }
+    #empty-history{
+        width:fit-content;
+        position:absolute;
+bottom:48vh;
+right:-15%;
+color:#ffdb58;
+    }
+}                   
+.buttonUnClicked{
+right:70px;
+}
