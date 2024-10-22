@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     // open: true, // This opens the browser automatically when you start the dev server
     hmr:{
-   overlay:false,    
+  //  overlay:false,    
     }
   },
   

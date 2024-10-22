@@ -211,7 +211,7 @@ console.log(user)
      </div>
      {icon && <div className='confirmation'><p><div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></p></div>}
      {icon && <div className="coverup"></div>}
-     {console.log(document.getElementById('app'))}
+     
   <div id='foot'>
 
 <Link to='/contact'>Contact Us</Link>
