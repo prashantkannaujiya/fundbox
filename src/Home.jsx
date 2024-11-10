@@ -28,19 +28,19 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="crowdFunding">
+      <div className="crowdFunding w-100">
         <h2>Why should you crowd fund your idea ??</h2>
         <p>
           <p className="row mb-0">
-            <p className="col-6 fs-5">
-              <p>
+            <p className="col-7 fs-5">
+              <p className="fs-4">
                 Capital doesn’t come so easy to entrepreneurs these days. In
                 2012, the total number of loans and money distributed in the
                 U.S. via the Small Business Administration has dropped as much
                 as 20 percent!
               </p>
 
-              <p className="mt-4">
+              <p className="mt-4 fs-4">
                 Also, nearly 98%of the business plans received by accredited
                 investors and VC’s are rejected. Without a doubt, the current
                 business-funding environment is in need of disruption.
@@ -54,7 +54,7 @@ function Home() {
             </div>
           </p>
         </p>
-        <p className="fs-5">
+        <p className="fs-4">
           One such disruption is the rising industry of crowdfunding, which
           involves a platform, an individual or entity in need of funding, and a
           community of people willing to collectively contribute these funds in
@@ -87,11 +87,11 @@ function Home() {
           </div>
         </div>
         <h2>Still confused ? Let us help you.</h2>
-        <p className="fs-5 w-75 text-center mx-auto">
+        <p className="fs-4 w-75 text-center mx-auto">
           Making a decision can be hard, we know that and that's why you can
           count on us.{" "}
         </p>
-        <p className="fs-5 w-75 mx-auto text-center">
+        <p className="fs-4 w-75 mx-auto text-center">
           Whatever you wish to listen from us, just tell it.
         </p>
         <div>

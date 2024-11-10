@@ -15,7 +15,7 @@ return(
         
      
         <form onSubmit={(e)=>{query(e)}} className=" rounded-2 mx-auto w-75 pb-5 text-white">
-        <p className="fs-5 mt-5" style={{marginBottom:'1cm'}}>Fill the form and we'll get back to you</p>
+        <p className="fs-4 mt-5" style={{marginBottom:'1cm'}}>Fill the form and we'll get back to you</p>
             <table>
               <tr>
                 <td><label>Name</label></td>
