@@ -71,10 +71,10 @@ function Home() {
         </p> */}
       
       </div>
-      <div className="crowdFunding">
+      <div className="crowdFunding"  style={{marginTop:''}}>
         <h2 className="fw-">It's quick and takes just 3 steps.</h2>
         <div className="row mx-auto text-white text-center justify-content-center mb-5">
-          <div className="col-3 bg-success mx-5 py-5">
+          <div className="col-3 bg-success border-0 border mx-5 py-5">
             <i class="bi bi-person-lines-fill display-1"></i>
             <p className="mt-4 fs-5">Register yourself</p>
           </div>
@@ -87,7 +87,7 @@ function Home() {
             <p className="mt-4 fs-5">Start collecting funds</p>
           </div>
         </div>
-        <h2 >Still confused ? Let us help you.</h2>
+        <h2 className="mb-5" >Still confused ? Let us help you.</h2>
         <p className="fs-4 w-75 text-center fw-normal mx-auto">
           Making a decision can be hard, we know that and that's why you can
           count on us.{" "}

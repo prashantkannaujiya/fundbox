@@ -147,21 +147,21 @@ console.log(user)
                 onClick={() => {
                   navigate('/register')
                 }}
-                className="btn btn-light me-3 shadow"
+                className="border-0 border bg-transparent me-3 "
               >
                 Register
               </button>
-              <button id='but-log'  className="btn btn-light shadow"  onClick={display}>Login</button>
+              <button id='but-log'  className="  border-0 bg-transparent "  onClick={display}>Login</button>
             </div>
           ) : (
             <div>
               <span>{user + "   "}</span>
-              <button   className="btn btn-light shadow me-3" onClick={logoff}>Logout</button>
+              <button   className=" bg-transparent border-0 me-3" onClick={logoff}>Logout</button>
               <button  
                 onClick={() => {
                  navigate('/account');
                 }}
-                 className="btn btn-light "
+                 className="bg-transparent border-0 border "
               >
                 My Account
               </button>
